@@ -1,0 +1,10 @@
+diff a/application/views/student/add_establish.php b/application/views/student/add_establish.php	(rejected hunks)
+@@ -121,7 +121,7 @@
+ 
+             function getDetail(id) {
+                 $.post("<?php echo base_url('index.php/eatablishment/getDetail/id') ?>", function(data) {
+-                    $(".result").html(data);
++                    $(".name_es").html(data);
+                 });
+ 
+             }

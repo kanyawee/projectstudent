@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/views/teacher/menuteacher.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/views/teacher/showupdate_student.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/views/teacher/showupdate_teacher.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/views/teacher/detailstudent.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/controllers/Teacher.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/views/teacher/formupdate_student.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/models/Studentmodel.php</file>
+            <file>file:/E:/xampp/htdocs/projectstudent/application/views/student/showall.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,18 @@
+
+.style-1 .header h1 {
+    color: #33b5e5;
+}
+
+.style-1 .form-group input:valid,
+.style-1 .form-group input:focus {
+    color: #33b5e5;
+}
+
+.style-1 .form-group input:valid ~ .line,
+.style-1 .form-group input:focus ~ .line {
+    background: #33b5e5;
+}
+
+.style-1 .button {
+    background: #33b5e5;
+}

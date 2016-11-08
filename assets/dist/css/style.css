@@ -1,0 +1,50 @@
+.btn-skyer{
+    background-color:#1088BF;
+    border-color:#1088BF;
+    width:47%
+}
+.btn-skyers.hover{background-color:#1088BF}
+.btn-dangery{
+    background-color:#dd4b39;
+    border-color:#d73925;
+    width:49%;
+    color: #ffffff;
+}
+.approve{
+    background-color: #0ABFE8;
+    color : #fff;
+    border : #0076E0;
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    a.closes{
+        color: #D61900;
+        width : 20px;
+        height : 20px;
+        margin-top: -40px;
+        right: 80px;
+        border-radius: 10px;                 
+        position: fixed;
+        background-color: #000000;
+        text-align:center;
+        z-index: 999; 
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    a.closes{
+        color: #D61900;
+        width : 20px;
+        height : 20px;
+        margin-top: -3%;
+        right: 6%;
+        border-radius: 50%;                 
+        position: fixed;
+        background-color: #000000;
+        text-align:center;
+        z-index: 999; 
+    }
+}
+

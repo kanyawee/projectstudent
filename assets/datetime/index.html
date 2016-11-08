@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+
+    <title>Datepair.js &ndash; Demos and Documentation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="https://jonthornton.github.io/jquery-timepicker/jquery.timepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://jonthornton.github.io/jquery-timepicker/jquery.timepicker.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.standalone.css" />
+
+    <!-- // <script src="lib/pikaday.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="lib/pikaday.css" />
+
+    // <script src="lib/jquery.ptTimeSelect.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/jquery.ptTimeSelect.css" />
+   <!--  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" /> -->
+
+    <!-- // <script src="lib/moment.min.js"></script> -->
+    // <script src="lib/site.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="lib/site.css" /> -->
+
+    <script src="dist/datepair.js"></script>
+    <script src="dist/jquery.datepair.js"></script>
+</head>
+
+<body>
+    <header>
+    
+    </header>
+        <article>
+            <div class="">
+                <h2>Date-only Example</h2>
+
+                <p>You can use datepair with just dates, or just times.</p>
+
+                <p id="dateOnlyExample">
+                    <input type="text" class="date start" /> to
+                    <input type="text" class="date end" />
+                </p>
+
+                <p id="timeOnlyExample">
+                    <input type="text" class="time start" /> to
+                    <input type="text" class="time end" />
+                </p>
+            </div>
+            <script>
+                $('#timeOnlyExample .time').timepicker({
+                    'showDuration': true,
+                    'timeFormat': 'g:ia'
+                });
+
+                var timeOnlyExampleEl = document.getElementById('timeOnlyExample');
+                var timeOnlyDatepair = new Datepair(timeOnlyExampleEl);
+
+                $('#dateOnlyExample .date').datepicker({
+                    'format': 'yyyy-m-d',
+                    'autoclose': true
+                });
+
+                var dateOnlyExampleEl = document.getElementById('dateOnlyExample');
+                var dateOnlyDatepair = new Datepair(dateOnlyExampleEl);
+            </script>
+        </article>
+
+        </article>
+
+        </article>
+    </section>
+</body>
+</html>
